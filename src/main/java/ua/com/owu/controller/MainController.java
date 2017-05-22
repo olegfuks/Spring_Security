@@ -149,21 +149,21 @@ public class MainController {
         model.addAttribute("post",postService.findOne(id));
             return "singlepost";
     }
-    @GetMapping("poststraveling")
+    @GetMapping("ukraine")
     public String poststraveling(Model model){
-        model.addAttribute("traveling",postService.findTraveling("Traveling"));
+        model.addAttribute("traveling",postService.findTraveling("Ukraine"));
         return "traveling";
     }
 
-    @GetMapping("cityguide")
+    @GetMapping("europe")
     public String cityguide(Model model){
-        model.addAttribute("cityguide",postService.findTraveling("City guide"));
+        model.addAttribute("cityguide",postService.findTraveling("Europe"));
         return "cityguide";
     }
 
-    @GetMapping("lifestyle")
+    @GetMapping("world")
     public String lifestyle(Model model){
-        model.addAttribute("lifestyle",postService.findTraveling("Lifestyle"));
+        model.addAttribute("lifestyle",postService.findTraveling("World"));
         return "lifestyle";
     }
     @GetMapping("/show-blog-{id}")

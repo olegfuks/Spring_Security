@@ -10,10 +10,10 @@
     <div class="blogpost">
         <a href="/showpost-${post.id}"><img src="${post.picture}"></a>
         <p class="blogpostTitle">${post.posttitle}</p>
-        <p class="blogpostText">${post.posttext}</p>
+        <p class="blogpostText">${post.postdescription}</p>
         <p>Created by ${post.owner}</p>
     </div>
-
 </c:forEach>
+
 <%@include file="footer.jsp"%>
 

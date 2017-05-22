@@ -44,9 +44,9 @@
     <label>Post description : </label><sf:textarea path="postdescription"/><br>
     <label>Post text : </label><sf:textarea path="posttext"/><br><br>
     <label>Choose post category : </label><sf:select path="postcategory">
-        <sf:option value="Traveling">Traveling</sf:option>
-        <sf:option value="City guide">City guide</sf:option>
-        <sf:option value="Lifestyle">Lifestyle</sf:option>
+        <sf:option value="Ukraine">Ukraine</sf:option>
+        <sf:option value="Europe">Europe</sf:option>
+        <sf:option value="World">World</sf:option>
     </sf:select><br><br>
     <label>Post picture : </label><input type="file" name="picture"><br><br>
 
